@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import {Carousel} from 'react-bootstrap'
-import '../Main/Title.css'
+import '../PhotoGalery/Title.css'
 
 class PhotoGalery extends Component {
     constructor(props, context) {
