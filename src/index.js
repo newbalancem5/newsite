@@ -2,8 +2,8 @@ import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route } from 'react-router-dom'
 import Navbar from './Components/Main/Navbar'
-import About from './Components/NavBarElements/AboutCompany'
-import PhotoGalery from './Components/NavBarElements/PhotoGalery'
+import About from './Components/NavBarElements/AboutCompany/AboutCompany'
+import PhotoGalery from './Components/NavBarElements/PhotoGalery/PhotoGalery'
 import Footer from './Components/Main/Footer'
 import Main from './Components/Main'
 // import Error from './Components/404'
@@ -18,7 +18,7 @@ render((
     <Route path="/PhotoGalery" component={PhotoGalery} />
     {/* <Route component={Error}/> */}
   </div>
-    <Footer />
+    {/* <Footer /> */}
 </BrowserRouter>
   ),
    document.getElementById('root'));
