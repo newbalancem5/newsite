@@ -3,6 +3,7 @@ import ElementsInfo from '../Components/Main/Elementsinfo';
 import Ads from '../Components/Main/Ads';
 import Form from '../Components/Main/FirstForm/FirstForm'
 import Logo from './Main/LogoCarousel/LogoCarousel'
+import LogoAds from '../Components/Main/Logo/LogoAds'
 
 class Main extends Component {
     render(){
@@ -14,6 +15,9 @@ class Main extends Component {
                 </div>
                 <div className="container">
                     <Ads/>
+                </div>
+                <div className="container">
+                    <LogoAds/>
                 </div>
                 <div className="container">
                     <Logo/>
