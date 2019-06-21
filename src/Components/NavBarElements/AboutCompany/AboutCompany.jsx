@@ -3,7 +3,6 @@ import {Container, Row, Col} from 'react-bootstrap'
 // import '../NavBarElements/AboutCompany/Aboutcompany/About.css'
 
 
-
 class AboutCompany extends Component{
     render(){
         return(
@@ -19,6 +18,11 @@ class AboutCompany extends Component{
     
   </Row>
   </Container>
+  <div className="container">
+  <footer className="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </footer>
+  </div>
   </div>
         )
     }
