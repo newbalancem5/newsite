@@ -4,6 +4,8 @@ import Ads from '../Components/Main/Ads';
 import Form from '../Components/Main/FirstForm/FirstForm'
 import Logo from './Main/LogoCarousel/LogoCarousel'
 import LogoAds from '../Components/Main/Logo/LogoAds'
+// import Footer from './Main/Footer';
+import Footers from './Main/footers'
 
 class Main extends Component {
     render(){
@@ -25,6 +27,9 @@ class Main extends Component {
                 <div className="container">
                     <Form />
                 </div>
+                <Footers />
+                    
+                
             </div>
         )
     }
