@@ -2,21 +2,22 @@ import React, { Component } from 'react';
 import ElementsInfo from '../Components/Main/Elementsinfo';
 import Ads from '../Components/Main/Ads';
 import Form from '../Components/Main/FirstForm/FirstForm'
-import Logo from './Main/LogoCarousel/LogoCarousel'
+// import Logo from './Main/LogoCarousel/LogoCarousel'
 import LogoAds from '../Components/Main/Logo/LogoAds'
 // import Footer from './Main/Footer';
 import Footers from './Main/footers'
 import MainInfo from './Elements/MainInfo';
 // import PhotoGalery from './NavBarElements/PhotoGalery/PhotoGalery';
+import './App.css'
 
 class Main extends Component {
     render(){
         return(
-            <div className="container">
+            <div>
                 <div className="container">
                     <MainInfo/>
                 </div>
-                <div className="container">
+                <div className="">
                     <ElementsInfo/>
                 </div>
                 <div className="container">
@@ -26,15 +27,15 @@ class Main extends Component {
                     <LogoAds/>
                 </div>
                 <div className="container">
-                    <Logo/>
+                    {/* <Logo/> */}
                 </div>
                 <div className="container">
                     <Form />
                 </div>
-                <Footers />
-                    
-                
-            </div>
+                <div className="container">
+                    <Footers />
+                </div>
+                </div>
         )
     }
 }
