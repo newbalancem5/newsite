@@ -1,6 +1,9 @@
 import React,{Component} from 'react'
 import {Carousel} from 'react-bootstrap'
 import '../PhotoGalery/Title.css'
+import Transport1 from './2.jpg'
+import Transport2 from './3.jpg'
+import Transport3 from './10.jpg'
 
 class PhotoGalery extends Component {
     constructor(props, context) {
@@ -25,10 +28,13 @@ class PhotoGalery extends Component {
         const { index, direction } = this.state;
         return(
             <div className="Container">
-                <div className="TitleGalery">
+              <div className="container">
+              <div className="TitleGalery">
                     <h1>Фото галерея</h1>
                 </div>
-                <div className="Carousel">
+              </div>
+                
+                <div className="container">
                 <Carousel
         activeIndex={index}
         direction={direction}
@@ -37,7 +43,7 @@ class PhotoGalery extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={Transport1}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -48,7 +54,7 @@ class PhotoGalery extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={Transport2}
             alt="Third slide"
           />
 
@@ -60,7 +66,7 @@ class PhotoGalery extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={Transport3}
             alt="Third slide"
           />
 
