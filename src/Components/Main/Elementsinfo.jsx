@@ -6,7 +6,7 @@ import '../Main/Main.css'
 class ElementsInfo extends Component{
     render(){
         return(
-            <div className="container">
+            <div className="ElementsPosition">
                 <div className="container">
                     <p className="CenterTitle">Преимущества компании</p>
                 </div>
