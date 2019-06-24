@@ -1,0 +1,10 @@
+.titles{
+    border-bottom: 1px solid hsl(197, 98%, 47%);
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.ElementsPosition{
+    background-color: #53d1f73b;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
