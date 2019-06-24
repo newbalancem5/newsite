@@ -6,7 +6,10 @@ import '../Main/Main.css'
 class ElementsInfo extends Component{
     render(){
         return(
-            <div>
+            <div className="container">
+                <div className="container">
+                    <p className="CenterTitle">Преимущества компании</p>
+                </div>
                 <Container>
                     <Row>
                         <Col className="infoelements">
