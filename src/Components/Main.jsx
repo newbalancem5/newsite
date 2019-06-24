@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ElementsInfo from '../Components/Main/Elementsinfo';
+import ElementsInfo from './Main/ElementsInfo/Elementsinfo';
 import Ads from '../Components/Main/Ads';
 import Form from '../Components/Main/FirstForm/FirstForm'
 // import Logo from './Main/LogoCarousel/LogoCarousel'
@@ -9,6 +9,7 @@ import Footers from './Main/footers'
 import MainInfo from './Elements/MainInfo';
 // import PhotoGalery from './NavBarElements/PhotoGalery/PhotoGalery';
 import './App.css'
+
 
 class Main extends Component {
     render(){
