@@ -6,13 +6,17 @@ import Logo from './Main/LogoCarousel/LogoCarousel'
 import LogoAds from '../Components/Main/Logo/LogoAds'
 // import Footer from './Main/Footer';
 import Footers from './Main/footers'
+import MainInfo from './Elements/MainInfo';
+// import PhotoGalery from './NavBarElements/PhotoGalery/PhotoGalery';
 
 class Main extends Component {
     render(){
         return(
             <div className="container">
-                <h1>Main site</h1>
-                <div>
+                <div className="container">
+                    <MainInfo/>
+                </div>
+                <div className="container">
                     <ElementsInfo/>
                 </div>
                 <div className="container">
