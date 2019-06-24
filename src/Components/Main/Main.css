@@ -7,11 +7,19 @@
     right: 0;
 }
 .infoelements{
-    background-color: #ededed;
-    border-radius: 10%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
-    margin-right: 1.5%;
+   
+    padding-top: 2%
 }
 .CenterTitle{
     text-align: center;
+    padding-top: 2%;
+
+}
+.container{
+    padding-top: 20px;
+}
+.ElementsPosition{
+    background-color: #53d1f73b;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
