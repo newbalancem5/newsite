@@ -9,5 +9,27 @@
     border-bottom: 1px solid hsl(197, 98%, 47%);
     padding-bottom: 20px;
     display: inline-block;
-    margin-left: 35%;
+    margin-left: 34%;
+}
+header {
+	background: url(/Img/3.jpg) no-repeat bottom center;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 100%;
+}
+.btn-default {
+	color: #71bd46;
+	font-family: 'Open Sans', sans-serif;
+	background-color: transparent;
+	border: 1px solid #71bd46;
+	border-radius: 4px;
+	margin: 0 8px;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background-color: #71bd46;
+	border: 1px solid #71bd46;
+	color: #eeeeee;
 }
