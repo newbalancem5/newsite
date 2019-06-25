@@ -22,3 +22,14 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.navbar-expand{
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color : blue ;
+}
