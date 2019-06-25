@@ -8,3 +8,15 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.titleabout{
+    text-align: center;
+}
+.lineabout{
+    border-bottom: 1px solid hsl(197, 98%, 47%);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.about{
+    border-top:3px solid hsl(347.6, 78.5%, 74.5%);
+    margin-top: 100px;
+}
