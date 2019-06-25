@@ -2,8 +2,10 @@ import React from 'react';
 import './MainInfo.css'
 
 const MainInfo = () => (
-    <div className="container">
-        <h1 className="Title">Мы предоставляем</h1>
+    <div className="MainPosition" >
+        <div className="container">
+        <h1 className="title">Мы предоставляем</h1>
+        </div>        
         <div className="container">
             <p className="CenterTextInfo">Сервисный центр «Рефкар» это широкий выбор услуг от прохождения сервисного ТО грузового автомобиля, до ремонта и установки холодильного оборудования.
 
