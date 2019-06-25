@@ -15,8 +15,8 @@ class Footer extends Component {
   <div class="col-md-6 mt-md-0 mt-3">
 
     
-    <h5 class="text-uppercase">Footer Content</h5>
-    <p>Here you can use rows and columns to organize your footer content.</p>
+    <h5 class="text-uppercase">Иконки</h5>
+    <p>иконки</p>
 
   </div>
   
