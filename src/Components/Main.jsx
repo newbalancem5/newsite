@@ -30,7 +30,7 @@ class Main extends Component {
                 <div className="container">
                     {/* <Logo/> */}
                 </div>
-                <div className="container">
+                <div className="">
                     <Form />
                 </div>
                 <div className="container">
