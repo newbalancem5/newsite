@@ -1,35 +1,43 @@
 import React, {Component} from 'react'
-import { InputGroup, FormControl, Form, Button } from 'react-bootstrap';
+import { Row, Col, FormControl, Form, Button } from 'react-bootstrap';
 import './Form.css' 
 
 
 class FirstForm extends Component{
     render(){
         return(
-            <div className="container">
+            <div className="">
                 <div className="firstform">
                 <div className="title">
                 <h1 className="title">Форма обратной связи</h1>
                 </div>
             <div className="inputgroup">
             <div className="container">
-                <div className="Name">
+                <Row>
+                    <Col>
+                    <div className="Name">
                 
-                    <Form.Label>Ф.И.О</Form.Label>
-                <FormControl placeholder="Ф.И.О" />
-  
-                </div>
-                </div>
-                <div className="container">
+                <Form.Label>Ф.И.О</Form.Label>
+            <FormControl placeholder="Ф.И.О" />
+
+            </div>
+                    </Col>
+                    <Col>
+                    
                 <div className="Mail">
                     <Form.Label>Номер телефона  </Form.Label>
-                    <FormControl placeholder="введите номер" />
+                    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input"></input>
                     </div> 
+                
+                    </Col>
+                </Row>
+           
                 </div>
+               
                 <div className="container">
                 <div className="Mail">
                     <Form.Label>Комментарий</Form.Label>
-                    <FormControl/>
+                    <FormControl as="textarea" aria-label="With textarea" />
                 </div>
                 </div>
                 
