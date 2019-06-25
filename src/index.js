@@ -4,7 +4,6 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import Navbar from './Components/Main/Navbar'
 import About from './Components/NavBarElements/AboutCompany/AboutCompany'
 import PhotoGalery from './Components/NavBarElements/PhotoGalery/PhotoGalery'
-import Footer from './Components/Main/Footer'
 import Main from './Components/Main'
 // import Error from './Components/404'
 
