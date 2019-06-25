@@ -1,5 +1,6 @@
 import React, {Component} from 'react'  
 import './ElementsInfo.css'
+import NewElement from './NewElements';
 
 
 class ElementsInfo extends Component{
@@ -27,6 +28,9 @@ class ElementsInfo extends Component{
         <p>Опытные менеджеры согласуют удобную дату ТО или сроки ремонтных работ.</p>
       </div>
     </div>
+  </div>
+  <div className="container">
+    <NewElement/>
   </div>
             </div>
         )
