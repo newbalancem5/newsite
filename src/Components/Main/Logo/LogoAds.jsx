@@ -1,49 +1,87 @@
 import React from 'react'
 import {Container, Col, Row, Image} from 'react-bootstrap'
-import Logotip from "../Logo/isuzus.png"
-import Daf from '../Logo/daf.svg'
-import Hino from '../Logo/Hinos.png'
-import Hynday from '../Logo/Hyunday.png'
-import Iveco from '../Logo/ivecos.svg'
-import Merin from '../Logo/Mercedess.png'
+import Isuzu from './logo/isuzu.svg'
+import Daf from './logo/daf(2).svg'
+import Hino from './logo/hino.svg'
+import Iveco from './logo/iveco-1.svg'
+import Mer from './logo/mercedes-benz.svg'
+import Hynday from './logo/hyundai.svg'
+import Scania from './logo/scania-2.svg'
+import Man from './logo/man-2.svg'
+import Shmidt from './logo/schmidt-1.svg'
+import Krone from './logo/krone.svg'
 
 const LogoAds = () => {
     return(
         <div className="container">
             <Container>
+                <div className="container">
                 <Row>
                     <Col xs={3} >
                         <Image
-                        width="100%"
-                        src={Logotip} />
+                        width="50%"
+                        src={Isuzu} />
                     </Col>
                     <Col xs={3}>
                         <Image
-                        width="100%"
+                        width="50%"
                         src={Daf}  />
                     </Col>
                     <Col xs={3}>
                         <Image
-                        width="100%"
+                        width="50%"
                         src={Hino}  />
                     </Col>
                     <Col xs={3}>
                         <Image
-                        width="100%"
+                        width="50%"
                         src={Iveco}  />
                     </Col>
-                    <Col xs={3}>
+                </Row>
+                </div>
+            </Container>
+            <div className="container">
+                <Row>
+                <Col xs={3}>
                     <Image
-                    width="100%"
-                    src={Merin} />
+                    width="50%"
+                    src={Mer} />
                     </Col>
                     <Col xs={3}>
                     <Image
-                    width="100%"
+                    width="50%"
                     src={Hynday} />
                     </Col>
+                    <Col xs={3}>
+                    <Image
+                    width="60%"
+                    src={Scania}/>
+                    </Col>
+                    <Col xs={3}>
+                    <Image
+                    width="60%"
+                    src={Man}/>
+                    </Col>
                 </Row>
-            </Container>
+            </div>
+            
+            <div className="container">
+                <Row>
+                <Col xs={3}>
+                </Col>
+                <Col xs={3}>
+                    <Image
+                    width="50%"
+                    src={Shmidt} />
+                    </Col>
+                    <Col xs={3}>
+                    <Image
+                    width="50%"
+                    src={Krone} />
+                    </Col>
+                </Row>
+            </div>
+            
         </div>
     )
 }
