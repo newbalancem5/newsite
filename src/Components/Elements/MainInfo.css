@@ -12,7 +12,7 @@
     margin-left: 34%;
 }
 header {
-	background: url(/Img/3.jpg) no-repeat bottom center;
+	
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
@@ -32,4 +32,8 @@ header {
 	background-color: #71bd46;
 	border: 1px solid #71bd46;
 	color: #eeeeee;
+}
+.title{
+	text-align: center;
+	padding-bottom: 20px;
 }
