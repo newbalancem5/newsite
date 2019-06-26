@@ -15,27 +15,26 @@ class Main extends Component {
     render(){
         return(
             <div>
-                <div className="container">
+                <div className="AboutFirm">
                     <MainInfo/>
                 </div>
                 <div className="">
                     <ElementsInfo/>
                 </div>
-                <div className="container">
+                <div className="">
                     <Ads/>
                 </div>
-                <div className="container">
+                <div className="">
                     <LogoAds/>
                 </div>
-                <div className="container">
+                <div className="">
                     {/* <Logo/> */}
                 </div>
                 <div className="">
                     <Form />
                 </div>
-                <div className="container">
-                    <Footers />
-                </div>
+               
+                <Footers/>
                 </div>
         )
     }
