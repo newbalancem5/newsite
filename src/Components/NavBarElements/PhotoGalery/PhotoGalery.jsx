@@ -4,6 +4,7 @@ import '../PhotoGalery/Title.css'
 import Transport1 from './2.jpg'
 import Transport2 from './3.jpg'
 import Transport3 from './10.jpg'
+import Footers from '../../Main/footers';
 
 class PhotoGalery extends Component {
     constructor(props, context) {
@@ -68,6 +69,7 @@ class PhotoGalery extends Component {
         </Carousel.Item>
       </Carousel>
                 </div>
+                <Footers/>
             </div>
         )
     }
