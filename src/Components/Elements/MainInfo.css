@@ -37,3 +37,44 @@ header {
 	text-align: center;
 	padding-bottom: 20px;
 }
+.titleabout{
+	text-align: center;
+	color: black;
+	
+}
+.titleaboutinfo{
+	text-align: center;
+	color: white;
+}
+.MainPosition{
+	height: 600px;
+    background-image: url("./3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: 100% 100%;
+	max-width: 100%;
+}
+.text{
+	padding-top: 70px;
+}
+.abouts{
+	color: white;
+    text-align: center;
+	font-size: 20px;
+	/* font-weight: 500;
+	width: 550px; */
+}
+.abouts{
+	margin-top: 120px;
+	
+}
+/* @media (min-width: 760px){
+.MainPosition{
+	max-width: 24%;
+}
+}
+@media (min-width:420px){
+	.MainPositionP{
+	min-width: 48%;
+}
+} */
