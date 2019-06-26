@@ -5,6 +5,7 @@ import Navbar from './Components/Main/Navbar'
 import About from './Components/NavBarElements/AboutCompany/AboutCompany'
 import PhotoGalery from './Components/NavBarElements/PhotoGalery/PhotoGalery'
 import Main from './Components/Main'
+import Price from './Components/NavBarElements/Price/Price'
 // import Error from './Components/404'
 
 
@@ -15,6 +16,7 @@ render((
     <Route exact path="/" component={Main} />
     <Route path="/AboutCompany" component={About} />
     <Route path="/PhotoGalery" component={PhotoGalery} />
+    <Route path="/Price" component={Price} />
     {/* <Route component={Error}/> */}
   </div>
     {/* <Footer /> */}
