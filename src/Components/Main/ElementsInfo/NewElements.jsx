@@ -13,22 +13,23 @@ class NewElement extends Component{
                 <div className="container">
                     <Row>
                         <Col>
-                            <div className="container">
-                                <p className="lineabout">Техническое обслуживание</p>
+                            <div className="CompanyServices">
+                                <p className="lineabout">Техническое обслуживание</p> <br/>
                                 <p className="lineabout">Работа с корпоративными клиентами</p>
                                 <p className="lineabout">Регламентные работы по техобслуживанию</p>
                                 <p className="lineabout">Установка и обслуживание доп. оборудования</p>
-                                <p className="lineabout">Ремонт ходовой части автомобиля</p>
+                                <p className="lineabout">Ремонт ходовой части автомобиля</p><br/>
                                 <p className="lineabout">Ремонт тормозной системы</p>
                                 <p className="lineabout">Замена деталей узлов ходовой части и подвески</p>
                             </div>
                         </Col>
                         <Col>
-                        <div className="container">
-                            <p className="lineabout">Замена узлов рулевого управления</p>
+                        <div className="CompanyServices">
+                            <p className="lineabout">Замена узлов рулевого управления</p><br/>
                             <p className="lineabout">Обслуживание и ремонт АКБ</p>
-                            <p className="lineabout">Ремонт КПП ZF</p>
-                            <p className="lineabout">Ремонт ДВС</p>
+                            <br/>
+                            <p className="lineabout">Ремонт КПП ZF</p><br/>
+                            <p className="lineabout">Ремонт ДВС</p> <br/>
                             <p className="lineabout">Ремонт и тех. обслуживание авторефрижераторов</p>
                             <p className="lineabout">Ремонт и тех. обслуживание кондиционеров</p>
                         </div>
