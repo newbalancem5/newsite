@@ -5,13 +5,15 @@ import './Main.css'
 class NavigationBar extends Component {
     render(){
         return(
-            <Navbar bg="transparent" sticky="top" inline>            
+            <Navbar bg="transparent"   inline>            
             <Navbar.Brand inline>
-              <Link to="/">RefCar</Link>
+            
               </Navbar.Brand>
             <Nav className="left">
-              <Nav.Link><Link to="/AboutCompany">О компании</Link></Nav.Link>
-              <Nav.Link > <Link to="/PhotoGalery" > Фото Галерея</Link></Nav.Link>
+            <Nav.Link ><Link to="/">Главная</Link></Nav.Link >
+              {/* <Nav.Link><Link to="/AboutCompany">Контакты</Link></Nav.Link> */}
+              <Nav.Link > <Link to="/PhotoGalery" >Галерея</Link></Nav.Link>
+              <Nav.Link><Link to="/Price" > Стоимость работ </Link></Nav.Link>
             </Nav>
             
           </Navbar>
