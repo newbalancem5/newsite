@@ -6,7 +6,7 @@ import './Form.css'
 class FirstForm extends Component{
     render(){
         return(
-            <div className="">
+            
                 <div className="firstform">
                 <div className="title">
                 <h1 className="title">Форма обратной связи</h1>
@@ -47,7 +47,7 @@ class FirstForm extends Component{
                 <Button className="Send">Отправить</Button>
             </div>
             </div>
-            </div>
+            
         )
     }
 }
