@@ -36,6 +36,18 @@ class NewElement extends Component{
                         </Col>
                     </Row>
                 </div>
+                <div className="container">
+
+                </div>
+                <div className="container">
+                    
+                </div>
+                <div className="container">
+                    
+                </div>
+                <div className="container">
+                    
+                </div>
             </div>
            
         )
