@@ -1,7 +1,9 @@
 import React , {Component} from 'react';
 import Price1 from './PDF/trailerrepairPRISE.pdf'
+import Price2 from './PDF/price2.pdf'
 import {Col , Row, ListGroup} from 'react-bootstrap'
 import Footers from '../../Main/footers';
+import './footer.css'
 
 
 class Price extends Component {
@@ -18,15 +20,19 @@ class Price extends Component {
                         
                         <ListGroup variant="flush">
                             <ListGroup.Item><a href = {Price1} target="_blank">Ремонт прицепов</a></ListGroup.Item>
-                            <ListGroup.Item>Прайс№2</ListGroup.Item>
+                            <ListGroup.Item><a href = {Price2} target="_blank">Полуприцепы</a></ListGroup.Item>
                            
                         </ListGroup>
                         </Col>
                     </Row>
                 </div>
-            </div>            
-            <Footers/>  
+                
+            </div>   
+            <div className="footer">
+            <Footers/>
+            </div>           
             </div>
+            
         )
     }
 } 
