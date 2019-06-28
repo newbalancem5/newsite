@@ -5,7 +5,7 @@ import './Main.css'
 class NavigationBar extends Component {
     render(){
         return(
-            <Navbar bg="transparent"   inline>            
+            <Navbar bg="white" sticky="top" inline>            
             <Navbar.Brand inline>
             
               </Navbar.Brand>
