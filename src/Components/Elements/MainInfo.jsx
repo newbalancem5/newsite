@@ -9,7 +9,7 @@ const MainInfo = () => (
             <Row>
             {/* <Col></Col> */}
             <Col>
-            <h1 className="titleaboutinfo">Мы предоставляем</h1>
+            <h1 className="titleaboutinfo">RefCar</h1>
             </Col>  
             </Row>
             </div>    
