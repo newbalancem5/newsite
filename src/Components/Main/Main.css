@@ -1,10 +1,10 @@
 .footer{
     /* background-color: aqua; */
-    text-align: center;
-    position: relative;
-    left: 0;
-    /* bottom: 0; */
-    right: 0;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
 .infoelements{
     padding-top: 2%
@@ -37,4 +37,12 @@ a:hover{
 .fa{
     width: 50px;
     height: 1.5rem;
+}
+.faya{
+    width: 1.5rem;
+    height: 1.5rem; 
+}
+#footer{
+    position: absolute;
+  bottom: 0;
 }
