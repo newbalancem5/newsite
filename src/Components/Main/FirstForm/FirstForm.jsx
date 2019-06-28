@@ -26,12 +26,18 @@ class FirstForm extends Component{
                     
                 <div className="Mail">
                     <Form.Label>Номер телефона  </Form.Label>
-                    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input"></input>
+                    <input class="form-control" type="tel"  id="example-tel-input"></input>
                     </div> 
                 
                     </Col>
                 </Row>
            
+                </div>
+                <div className="container">
+                <div className="Mail">
+                    <Form.Label>Введите Email</Form.Label>
+                    <FormControl type="email"  placeholder="Email" aria-label="With textarea" />
+                </div>
                 </div>
                
                 <div className="container">
