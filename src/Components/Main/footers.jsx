@@ -21,26 +21,7 @@ const Footers = () => (
               </div>
             </div>
             <div class="col-md-4">
-              {/* <h5>Контакты</h5>
-              <dl className="contact-list">
-                <dt>ИНН</dt>
-                <dd>2312226769</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Адрес:</dt>
-                <dd>Большевистская 324</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Электроная почта:</dt>
-                <dd><a href="mailto:#">info@refcar.ru</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Телефон:</dt>
-                <dd>+7 991 357-49-84                   
-                  <br/>
-                  <dd>8 (800) 234-78-58  </dd>
-                </dd>
-              </dl> */}
+             
             </div>
             <div class="col-md-4 col-xl-3">
               <h5>Контакты</h5>
