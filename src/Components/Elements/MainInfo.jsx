@@ -9,6 +9,7 @@ const MainInfo = () => (
             <Row>
             {/* <Col></Col> */}
             <Col>
+            
             <h1 className="titleaboutinfo">RefCar</h1>
             </Col>  
             </Row>
