@@ -33,7 +33,6 @@ class Main extends Component {
                 <div className="">
                     <Form />
                 </div>
-               
                 <Footers/>
                 </div>
         )
