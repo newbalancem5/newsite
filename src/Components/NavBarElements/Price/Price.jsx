@@ -2,14 +2,14 @@ import React , {Component} from 'react';
 import Price1 from './PDF/trailerrepairPRISE.pdf'
 import Price2 from './PDF/price2.pdf'
 import {Col , Row, ListGroup} from 'react-bootstrap'
-import Footers from '../../Main/footers';
+import Footers from '../../Main/footers'
 import './footer.css'
 
 
 class Price extends Component {
     render(){
         return(
-            <div>
+            <div className="Price">
             <div className="container">
                 <div className="container">
                     <h1 className="title">Прайс компании</h1>
@@ -19,8 +19,8 @@ class Price extends Component {
                         <Col>
                         
                         <ListGroup variant="flush">
-                            <ListGroup.Item><a href = {Price1} target="_blank">Ремонт прицепов</a></ListGroup.Item>
-                            <ListGroup.Item><a href = {Price2} target="_blank">Полуприцепы</a></ListGroup.Item>
+                            <ListGroup.Item><a href = {Price1} target="_blank"  className="PriceItem">Ремонт прицепов</a></ListGroup.Item>
+                            <ListGroup.Item><a href = {Price2} target="_blank" className="PriceItem" >Полуприцепы</a></ListGroup.Item>
                            
                         </ListGroup>
                         </Col>
@@ -30,7 +30,7 @@ class Price extends Component {
             </div>   
             <div className="footer">
             <Footers/>
-            </div>           
+            </div>          
             </div>
             
         )
