@@ -1,5 +1,5 @@
 .firstform{
-    background-color: #f6f6f6;
+    background-color: #363636;
     border-radius: 1%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     /* margin-right: 1.5%;
@@ -7,8 +7,8 @@
     padding-bottom: 100px; */
     /* width: 1157px; */
     margin: 10px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
 .title{
@@ -35,4 +35,7 @@ border-radius: 50px;
      border-width: 0 0 1px;
      background-color: transparent;
      border-bottom: 1px solid hsl(197, 98%, 47%);    
+}
+Label{
+    color: wheat;
 }

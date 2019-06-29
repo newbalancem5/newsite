@@ -2,11 +2,16 @@
     border-bottom: 1px solid hsl(197, 98%, 47%);
     display: inline-block;
     padding-bottom: 20px;
+    color:white;
 }
 .ElementsPosition{
-    background-color: #f6f6f6;
+    background-color: #363636;
     padding-top: 5%;
     padding-bottom: 5%;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 .titleabout{
     text-align: center;
@@ -15,8 +20,19 @@
     border-bottom: 1px solid hsl(197, 98%, 47%);
     display: inline-block;
     padding-bottom: 5px;
+    color: wheat;
 }
 .about{
     border-top:3px solid hsl(347.6, 78.5%, 74.5%);
     margin-top: 100px;
+}
+.aboutinfo{
+    color: wheat;
+}
+.titleinfo{
+    color: white;
+    text-align: center;
+}
+.section-title{
+    padding-bottom: 60px;
 }

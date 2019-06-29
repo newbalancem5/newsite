@@ -1,7 +1,21 @@
 .TitleGalery{
     text-align:  center;
     margin-bottom: 1%;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 .gallery{
     padding-bottom: 120px;
+}
+.GalleryPhone{
+    background: #363636;
+}
+.footer{
+       /* background-color: aqua; */
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       /* Set the fixed height of the footer here */
+       height: 60px;
 }

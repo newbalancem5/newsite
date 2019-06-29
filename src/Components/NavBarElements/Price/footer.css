@@ -1,3 +1,19 @@
+
+.Price{
+    background: #363636;
+}
 .footer{
-    padding-top: 2.5%;
+    /* background-color: aqua; */
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  
+}
+.title{
+    color: white;
+}
+.PriceItem:hover{
+    color: wheat;
 }
