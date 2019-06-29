@@ -8,7 +8,7 @@ class NewElement extends Component{
         return(
             <div className="about">
                 <div className="container">
-                    <h2 className="titleabout">Услуги компании</h2>
+                    <h2 className="titleinfo">Услуги компании</h2>
                 </div>
                 <div className="container">
                     <Row>
