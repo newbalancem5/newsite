@@ -1,10 +1,10 @@
 import React,{Component} from 'react'
 import {Carousel} from 'react-bootstrap'
 import '../PhotoGalery/Title.css'
+import Footers from '../../Main/footers'
 import Transport1 from './2.jpg'
 import Transport2 from './3.jpg'
 import Transport3 from './10.jpg'
-import Footers from '../../Main/footers'
 import Transport4 from './Images/4.jpg'
 import Transport5 from './Images/5.jpg'
 import Transport6 from './Images/6.jpg'
@@ -41,7 +41,7 @@ class PhotoGalery extends Component {
     {
         const { index, direction } = this.state;
         return(
-            <div className="Container">
+            <div className="GalleryPhone">
               <div className="container">
               <div className="TitleGalery">
                     <h1>Фото галерея</h1>
