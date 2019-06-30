@@ -21,7 +21,6 @@ class Price extends Component {
                         <ListGroup variant="flush">
                             <ListGroup.Item><a href = {Price1} target="_blank"  className="PriceItem">Ремонт прицепов</a></ListGroup.Item>
                             <ListGroup.Item><a href = {Price2} target="_blank" className="PriceItem" >Полуприцепы</a></ListGroup.Item>
-                           
                         </ListGroup>
                         </Col>
                     </Row>
@@ -29,7 +28,7 @@ class Price extends Component {
                 
             </div>   
             <div className="footer">
-            <Footers/>
+            <Footers />
             </div>          
             </div>
             
