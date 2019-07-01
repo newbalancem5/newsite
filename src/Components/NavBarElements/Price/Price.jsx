@@ -24,8 +24,7 @@ class Price extends Component {
                         </ListGroup>
                         </Col>
                     </Row>
-                </div>
-                
+                </div>                
             </div>   
             <div className="footer">
             <Footers />
