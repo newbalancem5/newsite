@@ -35,7 +35,7 @@ a:hover{
 }
 
 .fa{
-    width: 50px;
+    width: 50px; 
     height: 1.5rem;
 }
 .faya{
@@ -50,7 +50,7 @@ a:hover{
   bottom: 0;
 }
 .navbar{
-    background: #363636;
+    background: #141414;
 }
 .navitem{
     color: white;
