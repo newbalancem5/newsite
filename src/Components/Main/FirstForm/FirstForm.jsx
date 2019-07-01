@@ -9,7 +9,7 @@ class FirstForm extends Component{
             
                 <div className="firstform">
                 <div className="title">
-                <h1 className="title">Форма обратной связи</h1>
+                <h1 className="titleForm">Форма обратной связи</h1>
                 </div>
             <div className="inputgroup">
             <div className="container">
