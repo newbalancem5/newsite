@@ -19,11 +19,9 @@ class FirstForm extends Component{
                 
                 <Form.Label>Ф.И.О</Form.Label>
             <FormControl placeholder="Ф.И.О" />
-
             </div>
                     </Col>
                     <Col>
-                    
                 <div className="Mail">
                     <Form.Label>Номер телефона  </Form.Label>
                     <input class="form-control" type="tel"  id="example-tel-input"></input>
