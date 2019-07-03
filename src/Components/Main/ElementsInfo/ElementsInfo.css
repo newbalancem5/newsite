@@ -36,3 +36,13 @@
 .section-title{
     padding-bottom: 60px;
 }
+.CardElementsInfo{
+    background-color: #141414;
+}
+.card-header{
+    background-color: transparent;
+    padding: 0;
+}
+.card{
+    border: 0;
+}
