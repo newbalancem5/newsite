@@ -7,7 +7,7 @@ class Ads extends Component{
         return(
            <div className="container">
                <div className="container">
-                   <h1 className="CenterTitle">С кем мы работаем</h1>
+                   <h1 className="CenterTitle"> С кем мы работаем </h1>
                </div>
            </div>
         )
