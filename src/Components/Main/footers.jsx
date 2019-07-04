@@ -27,7 +27,7 @@ const Footers = () => (
               <h5>Контакты</h5>
               <dl className="contact-list">
                 {/* <dt>ИНН</dt> */}
-                <dd>2312226769</dd>
+                <dd>ИНН - 2312226769</dd>
               </dl>
               <dl class="adress">
                 {/* <dt>Адрес:</dt> */}
