@@ -6,51 +6,50 @@ import './Form.css'
 class FirstForm extends Component{
     render(){
         return(
+            <div className="firstform">
+            <div className="title">
+            <h1 className="titleForm">Форма обратной связи</h1>
+            </div>
+        <div className="inputgroup">
+        <div className="container">
+            <Row>
+                <Col>
+                <div className="Name">
             
-                <div className="firstform">
-                <div className="title">
-                <h1 className="titleForm">Форма обратной связи</h1>
-                </div>
-            <div className="inputgroup">
+            <Form.Label>Ф.И.О</Form.Label>
+        <FormControl placeholder="Ф.И.О" />
+        </div>
+                </Col>
+                <Col>
+            <div className="Mail">
+                <Form.Label>Номер телефона  </Form.Label>
+                <input class="form-control" type="tel"  id="example-tel-input" placeholder="8 999 999 99 99"></input>
+                </div> 
+            
+                </Col>
+            </Row>
+       
+            </div>
             <div className="container">
-                <Row>
-                    <Col>
-                    <div className="Name">
-                
-                <Form.Label>Ф.И.О</Form.Label>
-            <FormControl placeholder="Ф.И.О" />
+            <div className="Mail">
+                <Form.Label>Введите Email</Form.Label>
+                <FormControl type="email"  placeholder="Email" aria-label="With textarea" />
             </div>
-                    </Col>
-                    <Col>
-                <div className="Mail">
-                    <Form.Label>Номер телефона  </Form.Label>
-                    <input class="form-control" type="tel"  id="example-tel-input"></input>
-                    </div> 
-                
-                    </Col>
-                </Row>
+            </div>
            
-                </div>
-                <div className="container">
-                <div className="Mail">
-                    <Form.Label>Введите Email</Form.Label>
-                    <FormControl type="email"  placeholder="Email" aria-label="With textarea" />
-                </div>
-                </div>
-               
-                <div className="container">
-                <div className="Mail">
-                    <Form.Label>Комментарий</Form.Label>
-                    <FormControl as="textarea" aria-label="With textarea" />
-                </div>
-                </div>
-                
-               
-            </div>
-            <div className="sendcontainer">
-                <Button className="Send">Отправить</Button>
+            <div className="container">
+            <div className="Mail">
+                <Form.Label>Комментарий</Form.Label>
+                <FormControl as="textarea" aria-label="With textarea" />
             </div>
             </div>
+            
+           
+        </div>
+        <div className="sendcontainer">
+            <Button className="Send">Отправить</Button>
+        </div>
+        </div>
             
         )
     }
