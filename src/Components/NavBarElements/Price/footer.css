@@ -11,9 +11,21 @@
   height: 60px;
   
 }
+.PriceItem{
+    color: wheat;
+}
 .title{
     color: black;
 }
 .PriceItem:hover{
     color: wheat;
+}
+.listgroup{
+    background-color: #141414;
+    text-align: center;
+    color:wheat;
+    border-top: 1px solid white;
+}
+#Listgroup{
+border-radius: 30px;
 }

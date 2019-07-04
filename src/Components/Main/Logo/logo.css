@@ -15,9 +15,15 @@
     max-width: 100%;
     width: 70%;
 }
+.svgico{
+    margin-left: 220px;
+}
 @media screen and (max-width: 600px){
     .LogoImg{
         width: 250%;
+    }
+    .svgico{
+        margin-left: 45px;
     }
     .Logoimg2{
         
