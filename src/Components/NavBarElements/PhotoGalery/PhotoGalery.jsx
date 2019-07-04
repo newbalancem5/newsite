@@ -2,21 +2,19 @@ import React,{Component} from 'react'
 import {Carousel} from 'react-bootstrap'
 import '../PhotoGalery/Title.css'
 import Footers from '../../Main/footers'
-import Transport1 from './2.jpg'
-import Transport2 from './3.jpg'
-import Transport3 from './10.jpg'
+import Transport1 from './Images/1.jpg'
+import Transport2 from './Images/2.jpg'
+import Transport3 from './Images/3.png'
 import Transport4 from './Images/4.jpg'
 import Transport5 from './Images/5.jpg'
-import Transport6 from './Images/6.jpg'
+import Transport6 from './Images/6.png'
 import Transport7 from './Images/7.jpg'
 import Transport8 from './Images/8.jpg'
 import Transport9 from './Images/9.jpg'
 import Transport10 from './Images/11.jpg'
-import Transport11 from './Images/12.jpg'
-import Transport12 from './Images/14.jpg'
-import Transport13 from './Images/15.jpg'
-import Transport14 from './Images/16.jpg'
-import Transport15 from './Images/17.jpg'
+import Transport11 from './Images/12.png'
+import Transport12 from './Images/10.png'
+
 
 
 class PhotoGalery extends Component {
@@ -138,27 +136,6 @@ class PhotoGalery extends Component {
           <img
             className="d-block w-100"
             src={Transport12}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={Transport13}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={Transport14}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={Transport15}
             alt="Third slide"
           />
         </Carousel.Item>
