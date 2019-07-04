@@ -7,6 +7,7 @@ import PhotoGalery from './Components/NavBarElements/PhotoGalery/PhotoGalery'
 import Main from './Components/Main'
 import Price from './Components/NavBarElements/Price/Price'
 // import Error from './Components/404'
+import './Components/NavBarElements/Price/footer.css'
 
 
 render((
@@ -17,9 +18,9 @@ render((
     <Route path="/AboutCompany" component={About} />
     <Route path="/PhotoGalery" component={PhotoGalery} />
     <Route path="/Price" component={Price} />
-    {/* <Route component={Error}/> */}
+    
   </div>
-    {/* <Footer /> */}
+    
 </BrowserRouter>
   ),
    document.getElementById('root'));
