@@ -21,6 +21,7 @@
     display: inline-block;
     padding-bottom: 5px;
     color: wheat;
+    cursor: pointer;
 }
 .about{
     border-top:3px solid hsl(347.6, 78.5%, 74.5%);
@@ -45,4 +46,10 @@
 }
 .card{
     border: 0;
+}
+.titleinfo{
+    padding-top: 35px;
+}
+.elementsinfotitle{
+    color: white;
 }
