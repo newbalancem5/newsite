@@ -18,9 +18,9 @@ class Price extends Component {
                     <Row>
                         <Col>
                         
-                        <ListGroup variant="flush">
-                            <ListGroup.Item><a href = {Price1} target="_blank"  className="PriceItem">Ремонт прицепов</a></ListGroup.Item>
-                            <ListGroup.Item><a href = {Price2} target="_blank" className="PriceItem" >Полуприцепы</a></ListGroup.Item>
+                        <ListGroup className="all" >
+                            <ListGroup.Item className="listgroup"><a href = {Price1} target="_blank"  className="PriceItem">Ремонт прицепов</a></ListGroup.Item>
+                            <ListGroup.Item className="listgroup"><a href = {Price2} target="_blank" className="PriceItem" >Полуприцепы</a></ListGroup.Item>
                         </ListGroup>
                         </Col>
                     </Row>
