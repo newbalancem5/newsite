@@ -22,9 +22,9 @@ class NewElement extends Component{
     <Accordion.Collapse eventKey="1">
       <Card.Body>
           <div className="container">
-              <p className="lineabout">– Регулярное техническое обслуживание</p>
-              <p className="lineabout">– Плановое техническое обслуживание</p>
-              <p className="lineabout">– Диагностическую проверку</p>
+              <p className="elementsinfotitle">– Регулярное техническое обслуживание</p>
+              <p className="elementsinfotitle">– Плановое техническое обслуживание</p>
+              <p className="elementsinfotitle">– Диагностическую проверку</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -38,13 +38,13 @@ class NewElement extends Component{
     <Accordion.Collapse eventKey="1">
       <Card.Body>
           <div className="container">
-              <p className="lineabout">– Своя площадка для ремонта и обслуживания автомобилей</p>
-              <p className="lineabout">– Оформление договора на сотрудничество и заказ-наряда</p>
-              <p className="lineabout">– Ведение справочника исполнительных работ </p>
-              <p className="lineabout">– Возможность оплаты через выставление счета</p>
-              <p className="lineabout">– Согласование запчастей по качеству</p>
-              <p className="lineabout">– Утверждение сроков ремонта</p>
-              <p className="lineabout">– Гарантия на все виды работ </p>
+              <p className="elementsinfotitle">– Своя площадка для ремонта и обслуживания автомобилей</p>
+              <p className="elementsinfotitle">– Оформление договора на сотрудничество и заказ-наряда</p>
+              <p className="elementsinfotitle">– Ведение справочника исполнительных работ </p>
+              <p className="elementsinfotitle">– Возможность оплаты через выставление счета</p>
+              <p className="elementsinfotitle">– Согласование запчастей по качеству</p>
+              <p className="elementsinfotitle">– Утверждение сроков ремонта</p>
+              <p className="elementsinfotitle">– Гарантия на все виды работ </p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -58,7 +58,7 @@ class NewElement extends Component{
     <Accordion.Collapse eventKey="1">
       <Card.Body>
           <div className="container">
-              <p className="lineabout">– Работы проводятся по требованиям и рекомендациям производителя оборудования с обучением сотрудников СТО</p>
+              <p className="elementsinfotitle">Работы проводятся по требованиям и рекомендациям производителя оборудования с обучением сотрудников СТО</p>
               
           </div>
       </Card.Body>
@@ -73,13 +73,13 @@ class NewElement extends Component{
     <Accordion.Collapse eventKey="1">
       <Card.Body>
           <div className="container">
-              <p className="lineabout">– Монтаж пневмо-подушек</p>
-              <p className="lineabout">– Установка и обслуживание КМУ </p>
-              <p className="lineabout">– Установка гидробортов</p>
-              <p className="lineabout">– Установка воздушных и жидкосных отопителей</p>
-              <p className="lineabout">– Монтаж кондиционеров в штатное место </p>
-              <p className="lineabout">– Монтаж накрышников кондиционера</p>
-              <p className="lineabout">– Монтаж и установка ADR пакета</p>
+              <p className="elementsinfotitle">– Монтаж пневмо-подушек</p>
+              <p className="elementsinfotitle">– Установка и обслуживание КМУ </p>
+              <p className="elementsinfotitle">– Установка гидробортов</p>
+              <p className="elementsinfotitle">– Установка воздушных и жидкосных отопителей</p>
+              <p className="elementsinfotitle">– Монтаж кондиционеров в штатное место </p>
+              <p className="elementsinfotitle">– Монтаж накрышников кондиционера</p>
+              <p className="elementsinfotitle">– Монтаж и установка ADR пакета</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -93,12 +93,12 @@ class NewElement extends Component{
     <Accordion.Collapse eventKey="1">
       <Card.Body>
           <div className="container">
-              <p className="lineabout">– Ремонт стабилизаторов поперечной устойчивости</p>
-              <p className="lineabout">– Промывка гидросистемы и замена жидкости</p>
-              <p className="lineabout">– Регулировка/ремонт балансира</p>
-              <p className="lineabout">– Замена сальника ступицы колеса</p>
-              <p className="lineabout">– Регулировка осей грузового автомобиля и прицепа </p>
-              <p className="lineabout">– Ремонт реактивных штанг</p>
+              <p className="elementsinfotitle">– Ремонт стабилизаторов поперечной устойчивости</p>
+              <p className="elementsinfotitle">– Промывка гидросистемы и замена жидкости</p>
+              <p className="elementsinfotitle">– Регулировка/ремонт балансира</p>
+              <p className="elementsinfotitle">– Замена сальника ступицы колеса</p>
+              <p className="elementsinfotitle">– Регулировка осей грузового автомобиля и прицепа </p>
+              <p className="elementsinfotitle">– Ремонт реактивных штанг</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -112,10 +112,10 @@ class NewElement extends Component{
     <Accordion.Collapse eventKey="1">
       <Card.Body>
           <div className="container">
-              <p className="lineabout">– Ремонт суппорта дискового тормоза</p>
-              <p className="lineabout">– Замена тормозных колодок</p>
-              <p className="lineabout">– Диагностика и ремонт АБС</p>
-              <p className="lineabout">– Проточка и замена тормозных барабанов</p>
+              <p className="elementsinfotitle">– Ремонт суппорта дискового тормоза</p>
+              <p className="elementsinfotitle">– Замена тормозных колодок</p>
+              <p className="elementsinfotitle">– Диагностика и ремонт АБС</p>
+              <p className="elementsinfotitle">– Проточка и замена тормозных барабанов</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -129,10 +129,10 @@ class NewElement extends Component{
     <Accordion.Collapse eventKey="1">
       <Card.Body>
           <div className="container">
-              <p className="lineabout">– Замена сайлентблоков</p>
-              <p className="lineabout">– Ремонт и замена амортизаторов</p>
-              <p className="lineabout">– Замена реактивных штанг</p>
-              <p className="lineabout">– Замена и переборка рессор</p>
+              <p className="elementsinfotitle">– Замена сайлентблоков</p>
+              <p className="elementsinfotitle">– Ремонт и замена амортизаторов</p>
+              <p className="elementsinfotitle">– Замена реактивных штанг</p>
+              <p className="elementsinfotitle">– Замена и переборка рессор</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -150,10 +150,10 @@ class NewElement extends Component{
         <Accordion.Collapse eventKey="1">
         <Card.Body>
             <div className="container">
-                <p className="lineabout">– Замена сайлентблоков</p>
-                <p className="lineabout">– Ремонт и замена амортизаторов</p>
-                <p className="lineabout">– Замена реактивных штанг</p>
-                <p className="lineabout">– Замена и переборка рессор</p>
+                <p className="elementsinfotitle">– Замена сайлентблоков</p>
+                <p className="elementsinfotitle">– Ремонт и замена амортизаторов</p>
+                <p className="elementsinfotitle">– Замена реактивных штанг</p>
+                <p className="elementsinfotitle">– Замена и переборка рессор</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -167,9 +167,9 @@ class NewElement extends Component{
         <Accordion.Collapse eventKey="1">
         <Card.Body>
             <div className="container">
-                <p className="lineabout">– Измерение ЭДС </p>
-                <p className="lineabout">– Очистка корпуса аккумуляторной батареи </p>
-                <p className="lineabout">– Диагностика АКБ перед зимой</p>
+                <p className="elementsinfotitle">– Измерение ЭДС </p>
+                <p className="elementsinfotitle">– Очистка корпуса аккумуляторной батареи </p>
+                <p className="elementsinfotitle">– Диагностика АКБ перед зимой</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -183,9 +183,9 @@ class NewElement extends Component{
         <Accordion.Collapse eventKey="1">
         <Card.Body>
             <div className="container">
-                <p className="lineabout">– Диагностика коробки передач</p>
-                <p className="lineabout">– Замена технических жидкостей</p>
-                <p className="lineabout">– Замена КПП ZF</p>
+                <p className="elementsinfotitle">– Диагностика коробки передач</p>
+                <p className="elementsinfotitle">– Замена технических жидкостей</p>
+                <p className="elementsinfotitle">– Замена КПП ZF</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -199,17 +199,54 @@ class NewElement extends Component{
         <Accordion.Collapse eventKey="1">
         <Card.Body>
             <div className="container">
-                <p className="lineabout">– Капитальный ремонт ДВС</p>
-                <p className="lineabout">– Замена сальников и прокладок</p>
-                <p className="lineabout">– Промывка системы охлаждения</p>
-                <p className="lineabout">– Замена деталей</p>
+                <p className="elementsinfotitle">– Капитальный ремонт ДВС</p>
+                <p className="elementsinfotitle">– Замена сальников и прокладок</p>
+                <p className="elementsinfotitle">– Промывка системы охлаждения</p>
+                <p className="elementsinfotitle">– Замена деталей</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
     </Card>
     </Accordion>
-                            <p className="lineabout">Ремонт и тех. обслуживание авторефрижераторов</p>
-                            <p className="lineabout">Ремонт и тех. обслуживание кондиционеров</p>
+    <Accordion defaultActiveKey="0">
+    <Card className="CardElementsInfo">
+        <Accordion.Toggle as={Card.Header} eventKey="1" >
+        <p className="lineabout">Ремонт и тех. обслуживание авторефрижераторов</p> 
+        </Accordion.Toggle>
+        <Accordion.Collapse eventKey="1">
+        <Card.Body>
+            <div className="container">
+                <p className="elementsinfotitle">– Заправка/дозаправка фреоном</p>
+                <p className="elementsinfotitle">– Промывка системы рефрижератора</p>
+                <p className="elementsinfotitle">– Поиск и устранение утечк</p>
+                <p className="elementsinfotitle">– Проверка крепления проводов и шлангов</p>
+                <p className="elementsinfotitle" >– Проверка ремней на повреждения и натяжение</p>
+                <p className="elementsinfotitle">– Проверка защитных датчиков</p>
+                <p className="elementsinfotitle">– Проверка начала и окончания оттайки</p>
+                <p className="elementsinfotitle">– Замена конденсатора</p>
+            </div>
+        </Card.Body>
+        </Accordion.Collapse>
+    </Card>
+    </Accordion>
+    <Accordion defaultActiveKey="0">
+    <Card className="CardElementsInfo">
+        <Accordion.Toggle as={Card.Header} eventKey="1" >
+        <p className="lineabout">Ремонт и тех. обслуживание кондиционеров</p> 
+        </Accordion.Toggle>
+        <Accordion.Collapse eventKey="1">
+        <Card.Body>
+            <div className="container">
+                <p className="elementsinfotitle">– Заправка фреоном</p>
+                <p className="elementsinfotitle">– Заправка маслом</p>
+                <p className="elementsinfotitle">– Чистка конденсатора</p>
+                <p className="elementsinfotitle">– Замена компрессоров</p>
+                <p className="elementsinfotitle">– Замена компрессоров</p>
+            </div>
+        </Card.Body>
+        </Accordion.Collapse>
+    </Card>
+    </Accordion>
                         </div>
                         </Col>
                     </Row>
