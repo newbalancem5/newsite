@@ -14,6 +14,7 @@ import Koegel from './logo/Koegel.svg'
 import Wabco from './logo/wabco.svg'
 import Ashok from './logo/ashok.svg'
 import Saf from './logo/saf.svg'
+import Bpw from './logo/bpw.svg'
 import './logo.css'
 
 const LogoAds = () => {
@@ -95,10 +96,15 @@ const LogoAds = () => {
                     </Col>
                 </Row>
             </div>
+            <div className="svgico">
             <div className="container">
+                
                 <Row>
                 <Col xs={3}>
-                    
+                    <Image
+                    src={Bpw}
+                    className="LogoImg"
+                    />
                 </Col>
                 <Col xs={3}>
                 <Image
@@ -115,6 +121,7 @@ const LogoAds = () => {
                     
                     </Col>
                 </Row>
+                </div>
             </div>
             
         </div>
