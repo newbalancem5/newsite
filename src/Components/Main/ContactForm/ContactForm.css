@@ -1,3 +1,18 @@
 .blockphone{
     display: inline-block;
 }
+.ContactForm{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #141414;
+}
+.contactTitle{
+    color: wheat;
+}
+.TitleContact{
+    color:white;
+}
