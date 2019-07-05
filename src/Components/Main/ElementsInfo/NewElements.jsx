@@ -25,6 +25,7 @@ class NewElement extends Component{
               <p className="elementsinfotitle">– Регулярное техническое обслуживание</p>
               <p className="elementsinfotitle">– Плановое техническое обслуживание</p>
               <p className="elementsinfotitle">– Диагностическую проверку</p>
+              <p className="elementsinfotitle">– И другие работы</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -45,6 +46,7 @@ class NewElement extends Component{
               <p className="elementsinfotitle">– Согласование запчастей по качеству</p>
               <p className="elementsinfotitle">– Утверждение сроков ремонта</p>
               <p className="elementsinfotitle">– Гарантия на все виды работ </p>
+              <p className="elementsinfotitle">– И другие работы</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -59,6 +61,7 @@ class NewElement extends Component{
       <Card.Body>
           <div className="container">
               <p className="elementsinfotitle">Работы проводятся по требованиям и рекомендациям производителя оборудования с обучением сотрудников СТО</p>
+              <p className="elementsinfotitle">– И другие работы</p>
               
           </div>
       </Card.Body>
@@ -78,8 +81,9 @@ class NewElement extends Component{
               <p className="elementsinfotitle">– Установка гидробортов</p>
               <p className="elementsinfotitle">– Установка воздушных и жидкосных отопителей</p>
               <p className="elementsinfotitle">– Монтаж кондиционеров в штатное место </p>
-              <p className="elementsinfotitle">– Монтаж накрышников кондиционера</p>
+              <p className="elementsinfotitle">– Монтаж стояночных кондиционеров</p>
               <p className="elementsinfotitle">– Монтаж и установка ADR пакета</p>
+              <p className="elementsinfotitle">– И другие работы</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -99,6 +103,7 @@ class NewElement extends Component{
               <p className="elementsinfotitle">– Замена сальника ступицы колеса</p>
               <p className="elementsinfotitle">– Регулировка осей грузового автомобиля и прицепа </p>
               <p className="elementsinfotitle">– Ремонт реактивных штанг</p>
+              <p className="elementsinfotitle">– И другие работы</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -116,6 +121,7 @@ class NewElement extends Component{
               <p className="elementsinfotitle">– Замена тормозных колодок</p>
               <p className="elementsinfotitle">– Диагностика и ремонт АБС</p>
               <p className="elementsinfotitle">– Проточка и замена тормозных барабанов</p>
+              <p className="elementsinfotitle">– И другие работы</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -133,6 +139,7 @@ class NewElement extends Component{
               <p className="elementsinfotitle">– Ремонт и замена амортизаторов</p>
               <p className="elementsinfotitle">– Замена реактивных штанг</p>
               <p className="elementsinfotitle">– Замена и переборка рессор</p>
+              <p className="elementsinfotitle">– И другие работы</p>
           </div>
       </Card.Body>
     </Accordion.Collapse>
@@ -154,6 +161,7 @@ class NewElement extends Component{
                 <p className="elementsinfotitle">– Ремонт и замена амортизаторов</p>
                 <p className="elementsinfotitle">– Замена реактивных штанг</p>
                 <p className="elementsinfotitle">– Замена и переборка рессор</p>
+                <p className="elementsinfotitle">– И другие работы</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -170,6 +178,7 @@ class NewElement extends Component{
                 <p className="elementsinfotitle">– Измерение ЭДС </p>
                 <p className="elementsinfotitle">– Очистка корпуса аккумуляторной батареи </p>
                 <p className="elementsinfotitle">– Диагностика АКБ перед зимой</p>
+                <p className="elementsinfotitle">– И другие работы</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -185,7 +194,7 @@ class NewElement extends Component{
             <div className="container">
                 <p className="elementsinfotitle">– Диагностика коробки передач</p>
                 <p className="elementsinfotitle">– Замена технических жидкостей</p>
-                <p className="elementsinfotitle">– Замена КПП ZF</p>
+                <p className="elementsinfotitle">– И другие работы</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -202,7 +211,8 @@ class NewElement extends Component{
                 <p className="elementsinfotitle">– Капитальный ремонт ДВС</p>
                 <p className="elementsinfotitle">– Замена сальников и прокладок</p>
                 <p className="elementsinfotitle">– Промывка системы охлаждения</p>
-                <p className="elementsinfotitle">– Замена деталей</p>
+                <p className="elementsinfotitle">– Прочая замена навесных деталей двигателя</p>
+                <p className="elementsinfotitle">– И другие работы</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -224,6 +234,7 @@ class NewElement extends Component{
                 <p className="elementsinfotitle">– Проверка защитных датчиков</p>
                 <p className="elementsinfotitle">– Проверка начала и окончания оттайки</p>
                 <p className="elementsinfotitle">– Замена конденсатора</p>
+                <p className="elementsinfotitle">– И другие работы</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
@@ -241,7 +252,7 @@ class NewElement extends Component{
                 <p className="elementsinfotitle">– Заправка маслом</p>
                 <p className="elementsinfotitle">– Чистка конденсатора</p>
                 <p className="elementsinfotitle">– Замена компрессоров</p>
-                <p className="elementsinfotitle">– Замена компрессоров</p>
+                <p className="elementsinfotitle">– И другие работы</p>
             </div>
         </Card.Body>
         </Accordion.Collapse>
