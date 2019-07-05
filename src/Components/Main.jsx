@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import ElementsInfo from './Main/ElementsInfo/Elementsinfo';
 import Ads from '../Components/Main/Ads';
 import Form from '../Components/Main/FirstForm/FirstForm'
-// import Logo from './Main/LogoCarousel/LogoCarousel'
 import LogoAds from '../Components/Main/Logo/LogoAds'
-// import Footer from './Main/Footer';
 import Footers from './Main/footers'
 import MainInfo from './Elements/MainInfo';
-// import PhotoGalery from './NavBarElements/PhotoGalery/PhotoGalery';
 import './App.css'
+import ContactForm from './Main/ContactForm/Contact';
 
 
 class Main extends Component {
@@ -18,6 +16,9 @@ class Main extends Component {
                 <div className="AboutFirm">
                     <MainInfo/>
                 </div>
+                <div>
+                    <ContactForm/>
+                </div>
                 <div className="">
                     <ElementsInfo/>
                 </div>
@@ -26,9 +27,6 @@ class Main extends Component {
                 </div>
                 <div className="">
                     <LogoAds/>
-                </div>
-                <div className="">
-                    {/* <Logo/> */}
                 </div>
                 <div className="">
                     <Form />
