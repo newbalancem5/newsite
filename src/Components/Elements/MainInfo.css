@@ -48,7 +48,7 @@ header {
 }
 .MainPosition{
 	height: 600px;
-    background-image: url("./3.png");
+    background-image: url("./main.png");
     background-size: cover;
     background-repeat: no-repeat;
 	background-position: 100% 100%;
