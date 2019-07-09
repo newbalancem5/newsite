@@ -12,7 +12,7 @@ const ContactForm = () => (
                      <p className="contactTitle">г. Краснодар
                         ул. Большевистская 324 <br/>
                      </p>
-                     <p className="contactTitle"> бывший сервисный центр «Volvo» </p>
+                     <p className="contactTitle"> Ростовское шоссе, район Катюши </p>
                  </div>
              </Col>
              <Col xs={6} md={4}>
