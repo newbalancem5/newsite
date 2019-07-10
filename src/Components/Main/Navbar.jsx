@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-import {Navbar, Nav } from 'react-bootstrap';
+import {Navbar, Nav, Image } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import './Main.css'
+import Logo from './Logo.png'
 class NavigationBar extends Component {
     render(){
         return(
           <Navbar collapseOnSelect expand="lg" bg="" sticky="top" inline className="navbar">
-  <Navbar.Brand href="#home" className="Brand" >Refcar</Navbar.Brand>
+  <Navbar.Brand href="#home" className="Brand" ><Image src={Logo} width="100" /></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
