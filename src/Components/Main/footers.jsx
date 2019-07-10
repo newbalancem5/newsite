@@ -21,23 +21,19 @@ const Footers = () => (
               </div>
             </div>
             <div class="col-md-4">
-             
+            {/* <iframe src="https://yandex.ru/map-widget/v1/-/CCgp5V6m" width="350" height="200" frameborder="1" allowfullscreen="true"></iframe> */}
             </div>
             <div class="col-md-4 col-xl-3">
               <h5>Контакты</h5>
               <dl className="contact-list">
-                {/* <dt>ИНН</dt> */}
                 <dd>ИНН - 2312226769</dd>
               </dl>
               <dl class="adress">
-                {/* <dt>Адрес:</dt> */}
                 <dd>г.Краснодар, ул.Большевистская 324</dd>
               </dl>
               <dl class="contact-list">
-                {/* <dt>Телефон:</dt> */}
                 <dd>+7 900 271-54-33                   
                   <br/>
-                  {/* <dd>8 (800) 234-78-58  </dd> */}
                 </dd>
               </dl>
               <dl class="">
@@ -48,16 +44,18 @@ const Footers = () => (
           </div>
         </div>
         <div class="row no-gutters social-container">
-          <div class="col"></div>
+          <div class="col">
+            
+          </div>
           <div class="col"></div>
           <div class="col"></div>
           <div class="col"></div>
         </div>
   <div class="container text-center">
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada543b2d9609f17dc561ef070614a33944f05d077f66ba003797e97c31570a19&amp;width=320&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
     <small>Copyright &copy; Your Website</small>
   </div>
 </footer>
   );
 
-
-export default Footers;  
+export default Footers;
