@@ -1,27 +1,56 @@
     .firstform{
         max-width: 100%;
         background-color: #141414;
-        border-radius: 3%;
+        border-radius: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
         /* margin-right: 1.5%;
         padding-top: 100px;
         padding-bottom: 100px; */
         /* width: 1157px; */
         margin: 10px;
-        margin-right: 30px;
-        margin-left: 30px;
+        margin-right: 200px;
+        margin-left: 200px;
 
     }
+    .Name{
+        margin-left: 35%;
+    }
+    .Phone{
+        margin-right: 35%;
+        
+    }
+    .mail{
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+    .keks{
+        margin-right: 35%;
+    }
     @media screen and (max-width: 600px){
-        .container{
-            max-width: 250%;
-        }
+        
         .firstform{
             max-width: 100%;
+            margin-right: 5px;
+            margin-left: 5px;
         }
+        .Name{
+            margin-left: 10%;
+        }
+        .keks{
+            margin-right: 10%;
+            
+        }
+        .mail{
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+      
         .titleForm{
             font-size: 25px;
         }
+        
+        
+        
     }
     .titleForm{
         max-width: 100%;
@@ -48,8 +77,13 @@
     .form-control{
         border-width: 0 0 1px;
         background-color: transparent;
-        border-bottom: 1px solid hsl(197, 98%, 47%);    
+        border-bottom: 1px solid hsl(197, 98%, 47%);
+        
+        
+            
     }
     Label{
         color: wheat;
     }
+  
+ 
