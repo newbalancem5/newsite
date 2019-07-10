@@ -8,11 +8,57 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 20px;
-    background-color: #141414;
+    
+    margin-bottom: 10px;
 }
 .contactTitle{
-    color: wheat;
+    color: black;
 }
 .TitleContact{
-    color:white;
+    color:black;
+}
+.Maps{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.MapsForm{
+    border-radius: 20px;
+    margin-left: 40px;
+    width:660px;
+    height:300px;
+    max-width: 100%;
+}
+.FormYa{
+    margin-top: 10%;
+}
+@media screen and (max-width: 760px){
+    .MapsForm{
+        max-width: 100%;
+        width: 340px;
+        height: 200px;
+        margin-right: 40px;
+        margin-top: 10px;
+       
+    }
+}
+@media screen and (max-width: 760px){
+    .MapsForm{
+        max-width: 100%;
+        width: 340px;
+        height: 200px;
+        margin-right: 40px;
+        margin-top: 10px;
+       
+    }
+}
+@media screen and (max-width: 1024px){
+    .MapsForm{
+        max-width: 100%;
+        width: 340px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 10px;
+       
+    }
 }
