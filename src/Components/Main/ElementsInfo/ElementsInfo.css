@@ -23,10 +23,7 @@
     color: wheat;
     cursor: pointer;
 }
-.about{
-    border-top:3px solid hsl(347.6, 78.5%, 74.5%);
-    margin-top: 100px;
-}
+
 .aboutinfo{
     color: wheat;
 }
@@ -34,9 +31,9 @@
     color: white;
     text-align: center;
 }
-.section-title{
+/* .section-title{
     padding-bottom: 60px;
-}
+} */
 .CardElementsInfo{
     background-color: #141414;
 }
