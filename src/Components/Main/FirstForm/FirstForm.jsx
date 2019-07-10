@@ -21,7 +21,7 @@ class FirstForm extends Component{
         </div>
                 </Col>
                 <Col>
-            <div className="Mail">
+            <div className="keks">
                 <Form.Label>Номер телефона  </Form.Label>
                 <input class="form-control" type="tel"  id="example-tel-input" placeholder="8 999 999 99 99"></input>
                 </div> 
@@ -31,14 +31,14 @@ class FirstForm extends Component{
        
             </div>
             <div className="container">
-            <div className="Mail">
+            <div className="mail">
                 <Form.Label>Введите Email</Form.Label>
                 <FormControl type="email"  placeholder="Email" aria-label="With textarea" />
             </div>
             </div>
            
             <div className="container">
-            <div className="Mail">
+            <div className="mail">
                 <Form.Label>Комментарий</Form.Label>
                 <FormControl as="textarea" aria-label="With textarea" />
             </div>
