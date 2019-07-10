@@ -6,7 +6,7 @@ import LogoAds from '../Components/Main/Logo/LogoAds'
 import Footers from './Main/footers'
 import MainInfo from './Elements/MainInfo';
 import './App.css'
-import ContactForm from './Main/ContactForm/Contact';
+import MapsContact from './Main/ContactForm/MapsContact';
 
 
 class Main extends Component {
@@ -17,7 +17,7 @@ class Main extends Component {
                     <MainInfo/>
                 </div>
                 <div>
-                    <ContactForm/>
+                <MapsContact/>
                 </div>
                 <div className="">
                     <ElementsInfo/>
@@ -31,6 +31,7 @@ class Main extends Component {
                 <div className="">
                     <Form />
                 </div>
+                
                 <Footers/>
                 </div>
         )
