@@ -14,19 +14,37 @@ const MainInfo = () => (
             </Col>  
             </Row>
             </div>    
+            <div className="opacityf">
         <div className="container">
         <Row>
             {/* <Col></Col> */}
     <Col >       
-    <p className="abouts">Сервисный центр «Рефкар» это широкий выбор услуг от прохождения сервисного ТО грузового автомобиля и установки  дополнительного оборудования, до ремонта и холодильного оборудования и систем управления автомобилем.</p>
+    <p className="abouts">Сервисный центр Рефкар это команда, которая осуществялет грузовой сервис полного цикла:</p>
     </Col>
   </Row>
+  <div class="container">
+    
+    <div class="space"></div>
+    <div class="row textinfos">
+      <div class="col-md-4 line">
+        <p className="aboutinfos">Ремонт грузовых автомобилей, прицепов и полуприцепов</p>
+        
+      </div>
+      <div class="col-md-4 line">
+        <p className="aboutinfos">Диагностика грузового автотранспорта и монтаж дополнительного оборудования</p>
+      </div>
+      <div class="col-md-4">
+        <p className="aboutinfos">Сварочные и слесарные работы любой сложности</p>
+      </div>
+    </div>
+  </div> 
         {/* <h1 className="title">Мы предоставляем</h1>
         </div>        
         <div className="container">
             <p className="CenterTextInfo">
             Сервисный центр «Рефкар» это широкий выбор услуг от прохождения сервисного ТО грузового автомобиля и установки  дополнительного оборудования, до ремонта и холодильного оборудования и систем управления автомобилем.
             </p> */}
+            </div>
             </div>
         </div>
         <div className="container">
