@@ -12,7 +12,7 @@ class NewElement extends Component {
         </div>
         <div className="container">
           <Row>
-            <Col lg>
+            <Col lg className="paddingelement">
               <div className="CompanyServices">
                 <Accordion defaultActiveKey="0">
                   <Card className="CardElementsInfo">
@@ -102,7 +102,7 @@ class NewElement extends Component {
                 </Accordion>
               </div>
             </Col>
-            <Col>
+            <Col lg className="paddingelement">
               <div className="CompanyServices">
 
                 <Accordion defaultActiveKey="0">
