@@ -50,3 +50,12 @@
 .elementsinfotitle{
     color: white;
 }
+.paddingelement{
+    margin-left: 13%;
+}
+
+@media screen and (max-width: 600px){
+    .paddingelement{
+        margin-left: 1px;
+    }
+	}

@@ -62,6 +62,7 @@ a:hover{
 .navitem{
     color: white;
     font-family: import;
+    font-size: 20px;
 }
 .navbar-light .navbar-nav .nav-link{
     color: white;
@@ -106,3 +107,25 @@ a:hover{
     font-family: import;
     color: white;
 }
+.itemsbrand{
+    margin-left: 30%;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+.phonebrand{
+    max-width: 100%;
+    margin-left: 0; 
+    font-family: import;
+    color: white;
+    font-size: 20px; 
+}
+@media screen and (max-width: 780px){
+    .itemsbrand{
+        margin-left: 40%;
+    }
+    .phonebrand{
+        margin-left: 40%;  
+    }
+    
+    }

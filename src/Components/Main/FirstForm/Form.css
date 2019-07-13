@@ -52,6 +52,32 @@
         
         
     }
+    @media screen and (max-width: 900px){
+        
+        .firstform{
+            max-width: 100%;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .Name{
+            margin-left: 10%;
+        }
+        .keks{
+            margin-right: 10%;
+            
+        }
+        .mail{
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+      
+        .titleForm{
+            font-size: 25px;
+        }
+        
+        
+        
+    }
     .titleForm{
         max-width: 100%;
         text-align: center;
