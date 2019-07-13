@@ -58,6 +58,12 @@ class PhotoGalery extends Component {
             src={Transport1}
             alt="First slide"
           />
+          <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
     
         </Carousel.Item>
         <Carousel.Item>
@@ -66,7 +72,12 @@ class PhotoGalery extends Component {
             src={Transport2}
             alt="Third slide"
           />
-
+        <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
          
         </Carousel.Item>
         <Carousel.Item>
@@ -75,6 +86,12 @@ class PhotoGalery extends Component {
             src={Transport3}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -82,6 +99,12 @@ class PhotoGalery extends Component {
             src={Transport4}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -89,6 +112,12 @@ class PhotoGalery extends Component {
             src={Transport5}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -96,6 +125,12 @@ class PhotoGalery extends Component {
             src={Transport6}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -103,6 +138,12 @@ class PhotoGalery extends Component {
             src={Transport7}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -110,6 +151,12 @@ class PhotoGalery extends Component {
             src={Transport8}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -117,6 +164,12 @@ class PhotoGalery extends Component {
             src={Transport9}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -124,6 +177,12 @@ class PhotoGalery extends Component {
             src={Transport10}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -131,6 +190,12 @@ class PhotoGalery extends Component {
             src={Transport11}
             alt="Third slide"
           />
+           <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -138,9 +203,19 @@ class PhotoGalery extends Component {
             src={Transport12}
             alt="Third slide"
           />
+          
         </Carousel.Item>
+         <Carousel.Caption>
+          <h3>Текст1</h3>
+          <p>
+            Текст2
+          </p>
+        </Carousel.Caption>
       </Carousel>
+     
+      
                 </div>
+                
                 </div>
                 <Footers/>
             </div>
