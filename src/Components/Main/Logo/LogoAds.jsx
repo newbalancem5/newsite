@@ -18,6 +18,7 @@ import Ashoks from './logo/2.png'
 import Carrier from './logo/carrier.svg'
 import Bpw from './logo/bpw.svg'
 import Webasto from './logo/webasto.svg'
+import Jac from './logo/jac.svg'
 import './logo.css'
 
 
@@ -31,13 +32,13 @@ const LogoAds = () => {
                     <Row>
                         <Col xs={3}>
                             <Image
-                                src={Koegel}
-                                className="LogoImg"
+                                src={Jac}
+                                className="LogoImgJac"
                             />
                         </Col>
                         <Col xs={3}>
                             <Image
-                                className="LogoImg3"
+                                className="LogoImgAsh"
                                 src={Ashoks} />
                         </Col>
                         <Col xs={3}>
@@ -88,7 +89,7 @@ const LogoAds = () => {
                 </Col>
                 <Col xs={3}>
                     <Image
-                        className="Logoimg2"
+                        className="LogoimgScania"
                         src={Scania} />
                 </Col>
                 <Col xs={3}>
