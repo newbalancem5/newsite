@@ -10,6 +10,9 @@ class FirstForm extends Component{
             <div className="title">
             <h1 className="titleForm">Форма обратной связи</h1>
             </div>
+            <div className="container">
+            <p className="aboutText">Команда опытных механиков и автоэлектриков нашего сервиса, <br></br> проведут осмотр вашего автомобиля и ответят на интересующие вопросы.</p>
+        </div>
         <div className="inputgroup">
         <div className="container">
             <Row>
@@ -49,6 +52,7 @@ class FirstForm extends Component{
         <div className="sendcontainer">
             <Button className="Send">Отправить</Button>
         </div>
+        
         </div>
             
         )
