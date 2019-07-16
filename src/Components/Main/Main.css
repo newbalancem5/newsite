@@ -63,6 +63,7 @@ a:hover{
     color: white;
     font-family: import;
     font-size: 20px;
+    margin-right: 30px;
 }
 .navbar-light .navbar-nav .nav-link{
     color: white;
@@ -108,7 +109,7 @@ a:hover{
     color: white;
 }
 .itemsbrand{
-    margin-left: 30%;
+    margin-left: 27%;
 }
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: white;
