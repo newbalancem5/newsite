@@ -14,11 +14,11 @@ const MapsContact = () => (
         <Row className="FormYa">
         <Col  lg="4">
                  <div className="container">                   
-                     <h3 className="TitleContact">Наш адресс</h3>
+                     <h3 className="TitleContact">Наш адрес</h3>
                      <p className="contactTitle">г. Краснодар
                         ул. Большевистская 324 <br/>
                      </p>
-                     <p className="contactTitle"> Ростовское шоссе, район Катюши </p>
+                     <p className="contactTitle"> Ростовское шоссе, район "Катюши" </p>
                  </div>
              </Col>
              <Col lg="4">
