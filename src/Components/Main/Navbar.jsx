@@ -28,3 +28,4 @@ class NavigationBar extends Component {
     }
 }
 export default NavigationBar;
+
