@@ -149,7 +149,7 @@ class NewElement extends Component {
                 <Accordion defaultActiveKey="0">
                   <Card className="CardElementsInfo">
                     <Accordion.Toggle as={Card.Header} eventKey="1" >
-                      <p className="lineabout">Ремонт и тех. обслуживание авторефрижераторов</p>
+                      <p className="lineabout">Ремонт и тех.обслуживание авторефрижераторов</p>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
