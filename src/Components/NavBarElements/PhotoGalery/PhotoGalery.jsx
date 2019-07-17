@@ -57,14 +57,7 @@ class PhotoGalery extends Component {
             className="d-block w-100"
             src={Transport1}
             alt="First slide"
-          />
-          <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
-    
+          />    
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -86,12 +79,6 @@ class PhotoGalery extends Component {
             src={Transport3}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -99,12 +86,6 @@ class PhotoGalery extends Component {
             src={Transport4}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -112,12 +93,6 @@ class PhotoGalery extends Component {
             src={Transport5}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -125,12 +100,6 @@ class PhotoGalery extends Component {
             src={Transport6}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -138,12 +107,6 @@ class PhotoGalery extends Component {
             src={Transport7}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -151,12 +114,6 @@ class PhotoGalery extends Component {
             src={Transport8}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -164,12 +121,6 @@ class PhotoGalery extends Component {
             src={Transport9}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -177,12 +128,6 @@ class PhotoGalery extends Component {
             src={Transport10}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -190,12 +135,6 @@ class PhotoGalery extends Component {
             src={Transport11}
             alt="Third slide"
           />
-           <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -205,17 +144,8 @@ class PhotoGalery extends Component {
           />
           
         </Carousel.Item>
-         <Carousel.Caption>
-          <h3>Текст1</h3>
-          <p>
-            Текст2
-          </p>
-        </Carousel.Caption>
-      </Carousel>
-     
-      
+      </Carousel>      
                 </div>
-                
                 </div>
                 <Footers/>
             </div>
