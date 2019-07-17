@@ -18,14 +18,14 @@ const MapsContact = () => (
                      <p className="contactTitle">г. Краснодар
                         ул. Большевистская 324 <br/>
                      </p>
-                     <p className="contactTitle"> Ростовское шоссе, район "Катюши" </p>
+                     <p className="contactTitle"> Ростовское шоссе, район «Катюши» </p>
                  </div>
              </Col>
              <Col lg="4">
                  <div className="container">
                      <h3 className="TitleContact">Наш номер</h3>
-                     <p className="contactTitle">8 (900) 271-54-33</p>
                      <p className="contactTitle">8 (800) 234-78-58</p>
+                     <p className="contactTitle">8 (900) 271-54-33</p>
                  </div>
              </Col>
              <Col lg="4">
