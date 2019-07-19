@@ -24,8 +24,8 @@ const MapsContact = () => (
              <Col lg="4">
                  <div className="container">
                      <h3 className="TitleContact">Наш номер</h3>
-                     <p className="contactTitle">8 (800) 234-78-58</p>
-                     <p className="contactTitle">8 (900) 271-54-33</p>
+                    <a href="tel:8 (800) 234-78-58 "> <p className="contactTitle" >8 (800) 234-78-58 <br/> (звонок бесплатный)</p></a>
+                    <a href="tel:8 (900) 271-54-33"><p className="contactTitle">8 (900) 271-54-33 </p></a>
                  </div>
              </Col>
              <Col lg="4">
