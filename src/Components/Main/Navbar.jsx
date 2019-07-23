@@ -1,14 +1,19 @@
 import React, {Component} from 'react';
 import {Navbar, Nav, Image } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import {Link, Switch, Route} from 'react-router-dom';
 import './Main.css'
 import Logo from './ref.svg'
+import Main from '../Main';
+import AboutCompany from '../NavBarElements/AboutCompany/AboutCompany';
+import PhotoGalery from '../NavBarElements/PhotoGalery/PhotoGalery';
+import Price from '../NavBarElements/Price/Price';
 
 class NavigationBar extends Component {
     render(){
         return(
+          <div>
           <Navbar collapseOnSelect expand="lg" bg="" sticky="top" inline className="navbar">
-  <Navbar.Brand href="#home" className="Brand" ><Image src={Logo} width="120" /></Navbar.Brand>
+  <Navbar.Brand href="#home" className="Brand" ><Link to="/"><Image src={Logo} width="120" /></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto itemsbrand">
@@ -23,7 +28,16 @@ class NavigationBar extends Component {
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>
+  
 </Navbar>
+<Switch>
+<Route exact path="/" component={Main} />
+    <Route path="/AboutCompany" component={AboutCompany} />
+    <Route path="/PhotoGalery" component={PhotoGalery} />
+    <Route path="/Price" component={Price} />
+</Switch>
+</div>
+
         );
     }
 }
