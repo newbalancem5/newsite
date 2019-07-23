@@ -1,28 +1,14 @@
 import React from 'react'
 import { render } from 'react-dom'
-import  { Switch, BrowserRouter, Route } from 'react-router-dom'
+import  { BrowserRouter} from 'react-router-dom'
 import Navbar from './Components/Main/Navbar'
-import About from './Components/NavBarElements/AboutCompany/AboutCompany'
-import PhotoGalery from './Components/NavBarElements/PhotoGalery/PhotoGalery'
-import Main from './Components/Main'
-import Price from './Components/NavBarElements/Price/Price'
 // import Error from './Components/404'
 import './Components/NavBarElements/Price/footer.css'
 
 
 render((
   <BrowserRouter>
-  
-  <div>
     <Navbar />
-    <Switch>
-    <Route exact path="/" component={Main} />
-    <Route path="/AboutCompany" component={About} />
-    <Route path="/PhotoGalery" component={PhotoGalery} />
-    <Route path="/Price" component={Price} />
-    </Switch>
-
-  </div>
 </BrowserRouter>
   ),
    document.getElementById('root'));
