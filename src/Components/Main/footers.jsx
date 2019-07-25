@@ -52,8 +52,7 @@ const Footers = () => (
           <div class="col"></div>
         </div>
   <div class="container text-center">
-  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada543b2d9609f17dc561ef070614a33944f05d077f66ba003797e97c31570a19&amp;width=320&amp;height=320&amp;lang=ru_RU&amp;scroll=true"></script>
-    <small>Copyright &copy; Your Website</small>
+    {/* <small><a href="https://github.com/newbalancem5">Github</a></small> */}
   </div>
 </footer>
   );
