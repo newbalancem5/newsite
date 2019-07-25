@@ -6,7 +6,7 @@ import './Form.css'
 class FirstForm extends Component{
     render(){
         return(
-            <div className="firstform">
+            <form className="firstform" id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/info@refcar.ru" method="post">
             <div className="title">
             <h1 className="titleForm">Форма обратной связи</h1>
             </div>
@@ -20,13 +20,13 @@ class FirstForm extends Component{
                 <div className="Name">
             
             <Form.Label>Ф.И.О</Form.Label>
-        <FormControl placeholder="Ф.И.О" />
+        <FormControl placeholder="Ф.И.О" name="name" id="full-name" required="" />
         </div>
                 </Col>
                 <Col>
             <div className="keks">
                 <Form.Label>Номер телефона  </Form.Label>
-                <input class="form-control" type="tel"  id="example-tel-input" placeholder="8 999 999 99 99"></input>
+                <input class="form-control" type="tel"   placeholder="8 999 999 99 99"  name="telephone" id="telephone" ></input>
                 </div> 
             
                 </Col>
@@ -36,24 +36,24 @@ class FirstForm extends Component{
             <div className="container">
             <div className="mail">
                 <Form.Label>Введите Email</Form.Label>
-                <FormControl type="email"  placeholder="Email" aria-label="With textarea" />
+                <FormControl type="email"  placeholder="Email" aria-label="With textarea"  name="_replyto" id="email-address"  required="" />
             </div>
             </div>
            
             <div className="container">
             <div className="mail">
                 <Form.Label>Комментарий</Form.Label>
-                <FormControl as="textarea" aria-label="With textarea" />
+                <FormControl as="textarea" aria-label="With textarea" name="complaint" id="complaint" required="" />
             </div>
             </div>
             
            
         </div>
         <div className="sendcontainer">
-            <Button className="Send">Отправить</Button>
+            <Button className="Send" type="submit">Отправить</Button>
         </div>
         
-        </div>
+        </form>
             
         )
     }
