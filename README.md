@@ -1,6 +1,6 @@
 ## Сайт компании ReFCar
 
-![alt text](./maps and about.jpg)
+![alt text](./maps.jpg)
 
 
 ## Available Scripts
