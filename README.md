@@ -1,5 +1,6 @@
 ## Сайт компании ReFCar
-
+![alt text](./1.jpg)
+![alt text](./2.jpg)
 ![alt text](./maps.jpg)
 
 
