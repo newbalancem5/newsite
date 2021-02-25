@@ -5,7 +5,7 @@ import './ContactForm.css'
 const ContactForm = () => (
     <div className="ContactForm">
             <div className="container">
-            <Row>
+            <Row className="ContactContainer">
              <Col xs={6} md={4}>
                  <div className="container">                   
                      <h3 className="TitleContact">Наш адресс</h3>

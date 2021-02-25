@@ -4,7 +4,7 @@ import './ContactForm.css'
 
 const MapsContact = () => (
     <div className="ContactForm">
-        <Row>
+        <Row className="ContactContainer">
             <Col  lg>
             <div className="MapsRef">
         <iframe className="MapsForm" src="https://yandex.ru/map-widget/v1/-/CCgp5V6m" frameborder="1"    allowfullscreen="true"></iframe>
