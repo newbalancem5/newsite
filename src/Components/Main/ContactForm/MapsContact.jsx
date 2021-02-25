@@ -7,7 +7,7 @@ const MapsContact = () => (
         <Row className="ContactContainer">
             <Col  lg>
             <div className="MapsRef">
-        <iframe className="MapsForm" src="https://yandex.ru/map-widget/v1/-/CCgp5V6m" frameborder="1"    allowfullscreen="true"></iframe>
+        <iframe title="Map" className="MapsForm" src="https://yandex.ru/map-widget/v1/-/CCgp5V6m" frameborder="1" allowfullscreen="true"/>
         </div>
         </Col>
         <Col>

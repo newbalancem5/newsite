@@ -1,6 +1,6 @@
 .LogoImg{
     max-width: 100%;
-    width: 60%;
+    width: 45%;
 }
 .LogoimgScania{
     max-width: 100%;
@@ -9,36 +9,36 @@
 }
 .LogoImgAsh{
     max-width: 100%;
-    width: 70%;
+    width: 55%;
 
 }
 .LogoImgJac{
     max-width: 100%;
-    width: 70%;
+    width: 55%;
     margin-top: 25%;
 }
 .LogoimgTtm{
     max-width: 100%;
-    width: 50%;
+    width: 35%;
 }
 .LogoImg1{
     max-width: 100%;
-    width: 50%; 
+    width: 40%; 
 }
 .LogoImgH{
     max-width: 100%;
-    width: 60%;
+    width: 50%;
     margin-top:9%;
 }
 .LogoImgBpw{
     max-width: 100%;
-    width: 50%;
+    width: 45%;
     margin-right:20px;
 }
 .LogoImgIsuzu{
     max-width: 100%;
-    width: 60%;
-    margin-top: 25%; 
+    width: 45%;
+    margin-top: 17%; 
 }
 .logos{
     padding-bottom: 20px;   
@@ -46,17 +46,17 @@
 .LogoImgSaf{
     max-width: 100%;
     width: 60%;
-    margin-top: 25%;
+    margin-top: 19%;
 }
 .LogoImgWeb{
     max-width: 100%;
     width: 80%;
-    margin-top: 22%;
+    margin-top: 10%;
     margin-left: -10%;
 }
 .LogoImgCarrier{
     max-width: 100%;
-    width: 80%; 
+    width: 65%; 
 }
 .svgico{
     margin-left: 220px;

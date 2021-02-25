@@ -18,8 +18,8 @@ class Price extends Component {
                     <Row>
                         <Col>
                         <ListGroup className="all" >
-                            <ListGroup.Item className="listgroup"><a className="PriceItem">Прайсы находятся в разработке. Вся информация по номеру</a></ListGroup.Item>
-                            <ListGroup.Item className="listgroup"><a className="PriceItem">8 900 271 54 33</a></ListGroup.Item>
+                            <ListGroup.Item className="listgroup"><a className="PriceItem" href=" " rel="noopener noreferrer">Прайсы находятся в разработке. Вся информация по номеру</a></ListGroup.Item>
+                            <ListGroup.Item className="listgroup"><a className="PriceItem" href=" ">8 900 271 54 33</a></ListGroup.Item>
                             {/* <ListGroup.Item className="listgroup"><a href = {Price1} target="_blank"  className="PriceItem">Ремонт прицепов</a></ListGroup.Item>
                             <ListGroup.Item className="listgroup"><a href = {Price2} target="_blank" className="PriceItem" >Полуприцепы</a></ListGroup.Item> */}
                         </ListGroup>

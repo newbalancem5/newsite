@@ -6,7 +6,7 @@ class ErrorPage extends Component {
     render(){
         return(
             <div className="container">
-                <p>Страница не найдена, Вернуться на главную</p>
+                <p>Страница не найдена</p>
             </div>
         )
     }

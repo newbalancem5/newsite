@@ -7,7 +7,7 @@ import './Components/NavBarElements/Price/footer.css'
 import Main from './Components/Main';
 import PhotoGalery from './Components/NavBarElements/PhotoGalery/PhotoGalery';
 import Price from './Components/NavBarElements/Price/Price';
-import Errors from './Components/404';
+import Errors from './Components/404/404'
 import { createBrowserHistory } from "history";
 
 
@@ -35,3 +35,4 @@ render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
 console.log("%cЭто сайт компании Рефкар", "color: Red; font-size: x-large");
+
