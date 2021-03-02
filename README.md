@@ -1,7 +1,7 @@
 ## Сайт компании ReFCar
-![alt text](./1.jpg)
-![alt text](./3.jpg)
-![alt text](./maps.jpg)
+![the image alt](assets/1.jpg)
+![the image alt](assets/3.jpg)
+![the image alt](assets/maps.jpg)
 
 
 ## Available Scripts
