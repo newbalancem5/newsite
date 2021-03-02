@@ -11,9 +11,15 @@
     padding-top: 2%;
 
 }
-.container{
-    padding-top: 20px;
+.ErrorText{
+    color: red;
 }
+.ErrorContainer{
+    padding-top: 20%;
+}
+/* .container{
+    padding-top: 20px;
+} */
 .ElementsPosition{
     background-color: #53d1f73b;
     padding-top: 5%;

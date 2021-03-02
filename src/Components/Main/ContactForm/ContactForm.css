@@ -1,65 +1,71 @@
-.ContactForm{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-radius: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 20px;
-    
-    margin-bottom: 10px;
+.ContactForm {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+
+  margin-bottom: 10px;
 }
-.ContactContainer{
-    margin-right: 0px;
+.ContactContainer {
+  margin-right: 0px;
 }
-.contactTitle{
-    color: black;
-    font-size: 15px;
+.contactTitle {
+  color: black;
+  font-size: 15px;
 }
-.TitleContact{
-    color:black;
+.TitleContact {
+  color: black;
 }
-.Maps{
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 20px;
+.Maps {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
-.MapsForm{
-    border-radius: 20px;
-    margin-left: 40px;
-    width:660px;
-    height:300px;
+.MapsForm {
+  border-radius: 20px;
+  margin-left: 40px;
+  width: 660px;
+  height: 300px;
+  max-width: 100%;
+}
+.FormYa {
+  margin-top: 10%;
+}
+@media screen and (max-width: 760px) {
+  .MapsForm {
     max-width: 100%;
+    width: 340px;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+  .ContactContainer {
+    margin-right: 25px;
+  }
 }
-.FormYa{
-    margin-top: 10%;
+@media screen and (max-width: 760px) {
+  .MapsForm {
+    max-width: 100%;
+    width: 340px;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+  .ContactContainer {
+    margin-right: 25px;
+  }
 }
-@media screen and (max-width: 760px){
-    .MapsForm{
-        max-width: 100%;
-        width: 340px;
-        height: 200px;
-        margin-right: 40px;
-        margin-top: 10px;
-       
-    }
-}
-@media screen and (max-width: 760px){
-    .MapsForm{
-        max-width: 100%;
-        width: 340px;
-        height: 200px;
-        margin-right: 40px;
-        margin-top: 10px;
-       
-    }
-}
-@media screen and (max-width: 1024px){
-    .MapsForm{
-        max-width: 100%;
-        width: 340px;
-        height: 300px;
-        margin-left: 10px;
-        margin-top: 10px;
-       
-    }
+@media screen and (max-width: 1024px) {
+  .MapsForm {
+    max-width: 100%;
+    width: 340px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .ContactContainer {
+    margin-right: 25px;
+  }
 }

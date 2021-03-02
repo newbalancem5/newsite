@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainInfo.css'
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import BootstrapModal from './Modal';
 
 const MainInfo = () => (
   <div className="MainPosition" >
@@ -15,7 +16,7 @@ const MainInfo = () => (
         </Row>
       </div>
       <div className="opacityf">
-        <div className="container">
+        <div className="container aboutinfocontainer">
           <Row>
             {/* <Col></Col> */}
             <Col >
@@ -27,8 +28,7 @@ const MainInfo = () => (
             <div class="space"></div>
             <div class="row textinfos">
               <div class="col-md-4 line">
-                <p className="aboutinfos">Ремонт и ТО грузовых автомобилейБ прицепов и полуприцепов</p>
-
+                <p className="aboutinfos">Ремонт и ТО грузовых автомобилей прицепов и полуприцепов</p>
               </div>
               <div class="col-md-4 line">
                 <p className="aboutinfos">Монтаж и оформление дополнительного оборудования </p>
@@ -43,7 +43,7 @@ const MainInfo = () => (
     </div>
     <div className="buttoncall">
       <div className="sendcontainer">
-        <Button className="SignUp" href="#signup" type="submit">ЗАПИСАТЬСЯ</Button>
+        <BootstrapModal/>
       </div>
     </div>
     <div className="container">
@@ -59,7 +59,7 @@ const MainInfo = () => (
           </div>
           <div class="col-md-4">
             <h4 className="titles">Качественно</h4>
-            <p className="aboutinfo"> Более 10 лет работы и кфалификация мастеров позволяют обеспечить выскоий уровень сервиса. Нас рекомендуют своим друзьям </p>
+            <p className="aboutinfo"> Более 10 лет работы и квалификация мастеров позволяют обеспечить выскоий уровень сервиса. Нас рекомендуют своим друзьям </p>
           </div>
           <div class="col-md-4">
             <h4 className="titles">Выгодно</h4>
